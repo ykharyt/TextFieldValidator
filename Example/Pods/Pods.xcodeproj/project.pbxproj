@@ -47,8 +47,8 @@
 		A069FF021EFCEC570020537D /* IQPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPopUp.m; sourceTree = "<group>"; };
 		A069FF031EFCEC570020537D /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
 		A069FF041EFCEC570020537D /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
-		A069FF0A1EFCEC7A0020537D /* validation_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = validation_error.png; path = Assets/validation_error.png; sourceTree = "<group>"; };
-		A069FF0B1EFCEC7A0020537D /* validation_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "validation_error@2x.png"; path = "Assets/validation_error@2x.png"; sourceTree = "<group>"; };
+		A069FF0A1EFCEC7A0020537D /* validation_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = validation_error.png; path = ../../../../TextFieldValidator/Assets/validation_error.png; sourceTree = "<group>"; };
+		A069FF0B1EFCEC7A0020537D /* validation_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "validation_error@2x.png"; path = "../../../../TextFieldValidator/Assets/validation_error@2x.png"; sourceTree = "<group>"; };
 		B3289A904B688DC9BCE3DE6811BB8A92 /* Pods-TextFieldValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextFieldValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BC394040AD30D170BC6797A43E611C7B /* Pods_TextFieldValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextFieldValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B976ABAF0ABF28527B4EBD99F5F9EA /* TextFieldValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldValidator.xcconfig; sourceTree = "<group>"; };
@@ -81,7 +81,6 @@
 		109216DB2BDD08D1880B51EB45C50276 /* TextFieldValidator */ = {
 			isa = PBXGroup;
 			children = (
-				A069FF091EFCEC6D0020537D /* Assets */,
 				72171E74ED994A2194B92C3254BF375F /* Classes */,
 			);
 			path = TextFieldValidator;
@@ -96,6 +95,8 @@
 				3E9628D66C732211CB7EBA67F10784BB /* TextFieldValidator-dummy.m */,
 				155358B6A8B3C3B040AF74E96D7592BB /* TextFieldValidator-prefix.pch */,
 				DBB200B9A4091E79C99DCDCA402EE4A5 /* TextFieldValidator-umbrella.h */,
+				A069FF0A1EFCEC7A0020537D /* validation_error.png */,
+				A069FF0B1EFCEC7A0020537D /* validation_error@2x.png */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TextFieldValidator";
@@ -140,15 +141,6 @@
 				A014B53B4CEDCBC9494A395168FC4E0D /* TextFieldValidator.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A069FF091EFCEC6D0020537D /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				A069FF0A1EFCEC7A0020537D /* validation_error.png */,
-				A069FF0B1EFCEC7A0020537D /* validation_error@2x.png */,
-			);
-			name = Assets;
 			sourceTree = "<group>";
 		};
 		A74BD84339504D3F467F6D1C5A3DC5D2 /* Development Pods */ = {
