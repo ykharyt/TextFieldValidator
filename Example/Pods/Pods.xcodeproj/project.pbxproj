@@ -47,7 +47,7 @@
 		A069FF021EFCEC570020537D /* IQPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPopUp.m; sourceTree = "<group>"; };
 		A069FF031EFCEC570020537D /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
 		A069FF041EFCEC570020537D /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
-		A069FF171EFCFCE40020537D /* TextFieldValidator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TextFieldValidator.bundle; path = ../Assets/TextFieldValidator.bundle; sourceTree = "<group>"; };
+		A069FF181EFD06C80020537D /* TextFieldValidator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TextFieldValidator.bundle; sourceTree = "<group>"; };
 		B3289A904B688DC9BCE3DE6811BB8A92 /* Pods-TextFieldValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextFieldValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BC394040AD30D170BC6797A43E611C7B /* Pods_TextFieldValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextFieldValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B976ABAF0ABF28527B4EBD99F5F9EA /* TextFieldValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldValidator.xcconfig; sourceTree = "<group>"; };
@@ -102,11 +102,11 @@
 		72171E74ED994A2194B92C3254BF375F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A069FF171EFCFCE40020537D /* TextFieldValidator.bundle */,
 				A069FF011EFCEC570020537D /* IQPopUp.h */,
 				A069FF021EFCEC570020537D /* IQPopUp.m */,
 				A069FF031EFCEC570020537D /* TextFieldValidator.h */,
 				A069FF041EFCEC570020537D /* TextFieldValidator.m */,
+				A069FF181EFD06C80020537D /* TextFieldValidator.bundle */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
