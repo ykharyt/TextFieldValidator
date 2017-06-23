@@ -212,8 +212,8 @@
     
     UIImage* validationImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"validation_error"
                                                                                       ofType:@"png"]];
-
-    [btnError setBackgroundImage:[UIImage imageNamed:IconImageName] forState:UIControlStateNormal];
+    
+    [btnError setBackgroundImage:validationImage forState:UIControlStateNormal];
     self.rightView=btnError;
     self.rightViewMode=UITextFieldViewModeAlways;
     self.strMsg=[msg copy];
