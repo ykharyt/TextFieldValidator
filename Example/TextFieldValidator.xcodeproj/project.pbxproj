@@ -12,11 +12,12 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		A069FF161EFCF7EE0020537D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A069FF151EFCF7EE0020537D /* LICENSE */; };
 		C54DC382AFDA35801AA529F9 /* Pods_TextFieldValidator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FABEC5DDEC17F85A89C36E /* Pods_TextFieldValidator_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A2700419E9FC0E50A164F09 /* TextFieldValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TextFieldValidator.podspec; path = ../TextFieldValidator.podspec; sourceTree = "<group>"; };
+		0A2700419E9FC0E50A164F09 /* TextFieldValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TextFieldValidator.podspec; path = ../TextFieldValidator.podspec; sourceTree = "<group>"; };
 		1AE03D2D92B2DA72B9CEDABC /* Pods-TextFieldValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldValidator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextFieldValidator_Tests/Pods-TextFieldValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -28,8 +29,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		77FABEC5DDEC17F85A89C36E /* Pods_TextFieldValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextFieldValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CE00757DAFF13D6291D84EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DE5B305AB373B20603A7C808 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A069FF151EFCF7EE0020537D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DE5B305AB373B20603A7C808 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E71235F1334E2FD57A41D25D /* Pods-TextFieldValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFieldValidator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextFieldValidator_Tests/Pods-TextFieldValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +113,7 @@
 			children = (
 				0A2700419E9FC0E50A164F09 /* TextFieldValidator.podspec */,
 				DE5B305AB373B20603A7C808 /* README.md */,
-				7CE00757DAFF13D6291D84EE /* LICENSE */,
+				A069FF151EFCF7EE0020537D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -178,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A069FF161EFCF7EE0020537D /* LICENSE in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
