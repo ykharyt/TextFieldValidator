@@ -1,0 +1,22 @@
+{
+  "name": "TextFieldValidator",
+  "version": "0.1.0",
+  "summary": "A short description of TextFieldValidator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ykharyt/TextFieldValidator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ykharyt": "ykharyt@softserveinc.com"
+  },
+  "source": {
+    "git": "https://github.com/ykharyt/TextFieldValidator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TextFieldValidator/Classes/**/*"
+}

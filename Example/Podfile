@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TextFieldValidator_Tests' do
+  pod 'TextFieldValidator', :path => '../'
+  
+  
+end

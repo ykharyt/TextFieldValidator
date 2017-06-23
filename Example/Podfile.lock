@@ -1,0 +1,16 @@
+PODS:
+  - TextFieldValidator (0.1.0)
+
+DEPENDENCIES:
+  - TextFieldValidator (from `../`)
+
+EXTERNAL SOURCES:
+  TextFieldValidator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TextFieldValidator: 091cd1d91ac379691fc8e01b173d14ca42113f09
+
+PODFILE CHECKSUM: 668a59ed4a56897cfde1cf46e55c953ab3bb0d85
+
+COCOAPODS: 1.2.1
