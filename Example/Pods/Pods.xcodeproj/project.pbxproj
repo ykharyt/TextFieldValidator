@@ -80,7 +80,7 @@
 		109216DB2BDD08D1880B51EB45C50276 /* TextFieldValidator */ = {
 			isa = PBXGroup;
 			children = (
-				A069FF0E1EFCEF0C0020537D /* Assets */,
+				A069FF171EFCFCE40020537D /* TextFieldValidator.bundle */,
 				72171E74ED994A2194B92C3254BF375F /* Classes */,
 			);
 			path = TextFieldValidator;
@@ -139,14 +139,6 @@
 				A014B53B4CEDCBC9494A395168FC4E0D /* TextFieldValidator.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A069FF0E1EFCEF0C0020537D /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				A069FF171EFCFCE40020537D /* TextFieldValidator.bundle */,
-			);
-			name = Assets;
 			sourceTree = "<group>";
 		};
 		A74BD84339504D3F467F6D1C5A3DC5D2 /* Development Pods */ = {
