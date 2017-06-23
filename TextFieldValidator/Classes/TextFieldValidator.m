@@ -8,7 +8,7 @@
 
 #import "TextFieldValidator.h"
 
-#define IconImageName @"validation_error.png"
+#define IconImageName @"validation_error"
 #define ColorPopUpBg [UIColor colorWithRed:0.702 green:0.000 blue:0.000 alpha:1.000]
 #define MsgValidateLength @"This field cannot be blank"
 
@@ -205,9 +205,13 @@
 
 -(void)showErrorIconForMsg:(NSString *)msg
 {
-    UIButton *btnError=[[UIButton alloc] initWithFrame:CGRectMake(0, 0, 25, 25)];
+    UIButton *btnError =[[UIButton alloc] initWithFrame:CGRectMake(0, 0, 25, 25)];
     [btnError addTarget:self action:@selector(tapOnError) forControlEvents:UIControlEventTouchUpInside];
-    [btnError setBackgroundImage:[UIImage imageNamed:IconImageName] forState:UIControlStateNormal];
+    
+    NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:IconImageName ofType:@"png"];
+    UIImage *image = [UIImage imageWithContentsOfFile:path];
+    
+    [btnError setBackgroundImage:image forState:UIControlStateNormal];
     self.rightView=btnError;
     self.rightViewMode=UITextFieldViewModeAlways;
     self.strMsg=[msg copy];
