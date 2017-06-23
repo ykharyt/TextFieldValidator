@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'TextFieldValidator/Classes/**/*'
   
   s.resource_bundles = {
-     'TextFieldValidator' => ['TextFieldValidator/Assets/TextFieldValidator.bundle/*.png’]
+     'TextFieldValidator' => ['TextFieldValidator/Assets/TextFieldValidator.bundle/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
